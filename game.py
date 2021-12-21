@@ -1,7 +1,5 @@
 import math
-import time
 from player import HumanPlayer, RandomComputerPlayer, SmartComputerPlayer
-
 from enum import IntEnum
 
 class Action(IntEnum):
@@ -149,10 +147,10 @@ def main():
         if keep_going.lower() !="y":
             break
 
-# __name__
+
 if __name__=="__main__":
     main()
-   
+
 
 
 
